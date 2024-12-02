@@ -14,6 +14,7 @@ def calculate_distances(filepath):
         sorted_second = sorted(second_col)
         partial_diff = abs(sorted_first[i] - sorted_second[i])
         total_sum += partial_diff
+    file.close()
     return total_sum
 
 if __name__ == '__main__':
