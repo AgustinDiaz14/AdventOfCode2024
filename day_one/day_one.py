@@ -33,5 +33,5 @@ def calculate_occurrences(filepath):
     return total_sum
 
 if __name__ == '__main__':
-    print(calculate_distances("./inputs/day_one/historian_hysteria.txt"))
-    print(calculate_occurrences("./inputs/day_one/historian_hysteria.txt"))
+    print(calculate_distances("./inputs/historian_hysteria.txt"))
+    print(calculate_occurrences("./inputs/historian_hysteria.txt"))
