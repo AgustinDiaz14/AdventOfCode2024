@@ -7,6 +7,5 @@ for x in file:
     columns[1].replace("\n", "")
     for i in range(len(columns[0])):
         partial_sum += abs(int(columns[0][i]) - int(columns[1][i]))
-    print(partial_sum)
     total_sum += partial_sum
 print(total_sum)
